@@ -6,7 +6,7 @@ from modules import system_info, network_info, process_info, user_info, services
 from utils import create_output_folder, zip_output_folder
 
 def show_menu():
-    print("\n====== SOC Incident Response Toolkit v3 ======")
+    print("\n====== SOC Incident Response Toolkit ======")
     print(f"Hostname: {os.getenv('COMPUTERNAME') or os.uname().nodename}")
     print("=============================================")
     print("1. Collect System Info")
