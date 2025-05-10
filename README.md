@@ -2,6 +2,7 @@
 SOC Incident Response Toolkit (Python)
 
 SOC_Triage_Toolkit_v1/
+
 ├── main.py                  → Entry point (menu + orchestrator)
 
 ├── modules/                 → Individual forensic modules
