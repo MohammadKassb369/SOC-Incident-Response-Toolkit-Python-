@@ -1,0 +1,6 @@
+# requirements.txt
+psutil
+yara-python
+pywin32
+colorama
+# pip install -r requirements.txt
