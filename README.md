@@ -3,7 +3,9 @@ SOC Incident Response Toolkit (Python)
 
 SOC_Triage_Toolkit_v1/
 ├── main.py                  → Entry point (menu + orchestrator)
+
 ├── modules/                 → Individual forensic modules
+
 │   ├── system_info.py
 │   ├── network_info.py
 │   ├── process_info.py
@@ -14,6 +16,7 @@ SOC_Triage_Toolkit_v1/
 │   ├── file_hashing.py
 │   ├── memory_capture.py
 │   └── reporting.py
+
 ├── tools/                   → External tools (e.g. yara64.exe, winpmem.exe)
 ├── output/                  → Collected data
 ├── config/                  → Settings, IOC lists, yara rules
